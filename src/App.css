@@ -1,0 +1,157 @@
+body{
+	margin:0;
+	color:#6a6f8c;
+	background:#c8c8c8;
+	font:600 16px/18px 'Open Sans',sans-serif;
+	background: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwcNDQ0NBw0HBwgNBw0HDQcHBw8ICQcNFREWFhURExUYHSggGBolGxUVITEhJSkrLi4uFx8zODMsNygtLisBCgoKDQ0NDw0NDisZFRkrNysrKystKysrKy0rKzcrKy0tKysrKysrKy0tKy0tKysrKysrKysrKysrKysrKysrK//AABEIALwBDAMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAABAgAGB//EABYQAQEBAAAAAAAAAAAAAAAAAAABEf/EABkBAQEBAQEBAAAAAAAAAAAAAAIBBgUAA//EABURAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIRAxEAPwDzxmZtnzZmLzzQsRKGGCKiUoYY0VBONDGInDC0MGlDDGioNONDGkVBpRoYyohRoqCKgnGioIqDTjGNDBOQxUEVBpRoqCKgnI0VBFQacMLESjkWZncZllQQosJjQwThhjQwaUMUIqIcaKgihKNDGhg04YYyoNKNFQRQnGioFQaUjKgioNONCxgnIYqCKiUo0VGMGnGio0I05DDGhg04YWhEpHHkKjuMuxYxDhhjQwaUMVBFDTjKgioJyNDGioNKNFQQwacMVBFRCjKgioJRoqCKgnGioFQacjQxoqCcaKjSEaUaKgioJyNFSNDBpwwxoUKQwscE446KgLuMvDDGiolONDGipBpRoYyhORooRUGlGioIoacZUEVBpRoqCKgnGioIqDSjRUaFKcaKgioJyNFQRUGlIYY0ME4YY0hg04YY0VBONFQQwaUMUIoTkcaYxjusvDIY0VBpRooRUE40VBFRKcaKgioJRoqCKg040VBFQSjRUEUNORoqNIYJRoqBUE5GioIqJThhjQhSkMMaFKchioIqCcaKEVBONFQRUGlGVgihOONioIqO7WXjRUEUJRoqCKg05GVBFQaUaKEVBONFRoRKNFRoYlOGGNDBpQwxjBORoqCKgnGkVGhg05CY0MGlIYqCKg040VBFQTjRUEVINKNFMYNOGERSHHGxUEVHcrLQwwRUQ5GigqDTjKgihKNFQSKgnDDGhEoYWhgnDDGI0o0VBFRDkMMjQwachMaGCUhhjRUGnGioIqCcaKEVBpxoqNDBpSNFRoYJyGFpChyONimhjuMtGioIqCcaKEVBpRoqCKiU4YY0MEoYY0MGnIYY0MEoTGhgnIYY0MGnDDGhgnDDGiolKRoqCKgHGioFRKcaKjSGDSkJgioJyGGNDBpyGFiJyONio0Md1loyoIqDSjRTQwacMMaGCUMLQxKchMaGCcMMaGDSkaKjQyCcMVBFQacjQxoqCcjRUEVBpRoqCKgnI0VBFSDThkLGCUhMaGIcMLQwachhaQicjjoYxjustI0VBFDSjRUaGCcMMaGCUMMYwacMLQjSkMMaGCchioIqJTkZUgioJyNFQRUGlGioIqCcjRUEVBpwwxoYNOQwxoYJQxUEihpyNDGipBpyNDjRSHI42GNDHcZWGGNDBpwwxjEKGGNDBOQxUEMEoTGME5DDI0VBpxooKgnI0VBFQacjSKgioJSNFRoYlORoqNCNOQmRoYJSGKkEVBpyNDGVBpyNIoKg05GihFYJyONhEVHdrKwwxoYNOGGNDBpQqkEMSnDCxg0oYZGME4YoQwacMVBFQacaKgioNKGGCKgnGipAqCcMMYwacMMaGDShioClOGKgioNONFQRUE40UIoSkf/Z) no-repeat center center fixed;
+    background-size: cover
+}
+*,:after,:before{box-sizing:border-box}
+.clearfix:after,.clearfix:before{content:'';display:table}
+.clearfix:after{clear:both;display:block}
+a{color:inherit;text-decoration:none}
+
+
+h2 {
+	padding-bottom: 50px;
+}
+.Login-App {
+	display: block;
+  width: 100%;
+   padding:  15px;
+  margin: auto;
+  height: 100%;
+	max-width:600px;
+	min-height:670px;
+	position:relative;
+	background:white;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border: 2px solid black;
+	border-radius: 20px
+}
+.Form-App{
+	width:100%;
+	height:100%;
+	position:absolute;
+	padding:90px 70px 50px 70px;
+	background:rgba(40,57,101,.9);
+  min-height:345px;
+	position:relative;
+	perspective:1000px;
+	transform-style:preserve-3d;
+}
+/*.nav {
+    width: 100%;
+    height: 100px;
+    padding-top: 10px;
+    opacity: 1;
+    transition: all .5s ease ;
+	
+}
+
+.nav-up {
+    transform: translateY(-100px);
+    opacity: 0
+}
+.nav .links {
+	position: relative ;
+
+	display: inline;
+	
+}
+li {
+	display: inline;
+	text-decoration: none;
+	padding-right: 50px;
+}
+.nav .links .btn{
+	color: rgb(156, 35, 172);
+	font-weight:bold;
+	} */
+
+	.button {
+		border-radius: 4px;
+		background-color: #c52bd3;
+		border: none;
+		color: #FFFFFF;
+		text-align: center;
+		font-size: 15px;
+		padding: 15px;
+		width: 450px;
+		transition: all 0.5s;
+		cursor: pointer;
+		position: relative;
+		margin: 5px;
+	  }
+	  
+	  .button span {
+		cursor: pointer;
+		display: inline-block;
+		position: relative;
+		transition: 0.5s;
+	  }
+	  
+	  .button span:after {
+		content: '\00bb';
+		position: absolute;
+		opacity: 0;
+		top: 0;
+		right: -20px;
+		transition: 0.5s;
+	  }
+	  
+	  .button:hover span {
+		padding-right: 25px;
+	  }
+	  
+	  .button:hover span:after {
+		opacity: 1;
+		right: 0;
+	  }
+	  .navbar {
+		width: 100%;
+		height: 100px;
+		padding-top: 10px;
+		opacity: 1;
+		transition: all .5s ease ;
+	  background: #fff;
+	  padding-left: 16px;
+	  padding-right: 16px;
+	  border-bottom: 1px solid #dfe3e8;
+	  border-radius: 0;
+	  float: left;
+	  display: block;
+	  color: black;
+	  text-align: center;
+	  justify-content : space-between;
+	  
+  }
+
+  .navbar .navbar-brand b {
+	font-weight: bold;
+	color: #33cabb;	
+  }
+  .navbar .form-inline {
+	display: inline-block;
+}
+.search-box {
+		float: right;
+		padding: 6px 10px;
+		margin-top: 8px;
+		margin-right: 16px;
+		font-size: 8px;
+		border: none;
+		cursor: pointer;
+		display: flex;
+
+    }
+	
+
+.navbar-right {
+		float: left;
+		padding: 6px 10px;
+		margin-top: 8px;
+		margin-right: 16px;
+		font-size: 10px;
+	}
